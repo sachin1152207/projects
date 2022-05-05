@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="form-control">
+    <form action="/update/{{todo[0]}}" method="post">
+        <label for="title">Todo Title</label><br>
+        <input type="text" name="title" value="{{todo[1]}}" required placeholder="Todo Title"><br>
+        <label for="desc">Todo Description</label><br>
+        <input type="text" name="desc" value="{{todo[2]}}" required placeholder="Todo Description"><br>
+        <input type="submit" class="btn-small" value="Update Todo">
+    </form>
+</div>
+{% endblock body %}

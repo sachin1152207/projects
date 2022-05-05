@@ -1,0 +1,35 @@
+
+{% extends 'base.html' %}
+{% block body %}
+    <div class="form-control">
+        <form action="/"  method="post">
+            <label for="title">Todo Title</label><br>
+            <input type="text" name="title" required ><br>
+            <label for="desc">Todo Description</label><br>
+            <input type="text" name="desc" required ><br>
+            <input type="submit" id="btn" class="btn-small" value="Add Todo">        
+        </form>
+    </div>
+    <div class="table">
+        <h1 class="table-desc">Todo list</h1>
+        <table>
+            <tr>
+                <th>SNo</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+            {% for Todo in todo %}
+                <tr>
+                <td>{{loop.index}}</td>
+                <td>{{Todo[1]}}</td>
+                <td>{{Todo[2]}}</td>
+                <td>{{Todo[3]}}</td>
+                <td><a href="/update/{{Todo[0]}}" class="a-btn-small">Update</a><a href="/delete/{{Todo[0]}}" class="a-btn-small">Delete</a></td>
+            </tr>
+            {% endfor %}
+            
+        </table>
+    </div>
+{% endblock body %}
