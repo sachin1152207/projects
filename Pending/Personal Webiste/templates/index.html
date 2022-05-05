@@ -1,0 +1,545 @@
+<!--Author: Template Stock
+Author URL: http://templatestock.co
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sachin Shrivastv</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Personal Potfolio Website Using Flask Python" />
+<link rel="icon" href="{{ url_for('static',filename='images/favico.ico')}}" type="image/x-icon" />
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6516349963388895"crossorigin="anonymous"></script>
+<link href="{{ url_for('static',filename='css/bootstrap.css')}}" rel='stylesheet' type='text/css'/>
+<link href="{{ url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css" media="all" />	    
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{{ url_for('static',filename='js/jquery.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='js/move-top.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='js/easing.js')}}"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+</head>
+<body>
+<div class="header" id="head">	
+      <div class="container"> 
+         <div class="header-top">
+      		 <div class="logo">
+				<a href="/"><img src="{{ url_for('static',filename='images/logo.png')}}" alt="" style="width: 140px; height: auto; margin-left: -18px; margin-top: -17px;"/></a>
+			 </div>
+		   <div class="top-menu">
+		   	<span class="menu"> </span>
+			<ul>
+			 	<nav class="cl-effect-5">
+				<li><a class="active" href="index.html"><span data-hover="Home">home</span></a></li>
+				<li><a href="#about" class="scroll"><span data-hover="about">about</span></a></li>
+				<li><a href="#work" class="scroll"><span data-hover="Featured"><span>Featured</span></a></li>
+				<li><a href="#services" class="scroll"><span data-hover="services">services</span></a></li>
+				<li><a href="#contact" class="scroll"><span data-hover="contact">contact</span></a></li>
+				</nav>
+			 </ul>
+			 </div>
+			 <!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+			<div class="clearfix"></div>
+		 </div>  
+		  <div class="index-banner">
+       	   <div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+				   <article style="position: absolute; width: 100%; opacity: 0;"> 
+				   	<div class="banner-wrap">
+				   	       	<div class="banner_center">
+				   		 		<h1>hello world,</h1> 
+				   		 		<h2>i am <span>graphic & web designer</span></h2>
+				   		 		<h2>from birgunj</h2>
+				   		 		</div>
+				   		 </div>
+					</article>
+				   <article style="position: relative; width: 100%; opacity: 1;"> 
+				   	   	<div class="banner-wrap">
+				   	      <div class="banner_center">
+				   		 		<h1>Sachin Shrivastv</h1> 
+				   		 		<h2>UI <span>graphic &  designer</span></h2>
+				   		 		<h2>Pythonist</h2>
+				   		 		</div>
+				   		  </div>
+				   </article>
+				   <article style="position: absolute; width: 100%; opacity: 0;">
+				   	  	<div class="banner-wrap">
+				   	       <div class="banner_center">
+				   		 		<h1>Siddharth Shrivastv</h1> 
+				   		 	
+				   		 		<h2>Devloper</h2>
+				   		 		</div>
+				   		 </div>
+					 </article>
+				 </div>
+				
+            </div>
+            <script src="{{ url_for('static',filename='js/jquery.wmuSlider.js')}}"></script> 
+			  <script>
+       			$('.example1').wmuSlider();         
+   		     </script> 	           	      
+      </div>
+	 </div>     
+	</div>
+	<div class="content">
+		<div class="about-section" id="about" id="about">
+	<div class="container">
+		<div class="about-header">
+			<h3>about</h3>
+			<div class="about-imag">
+			<img src="{{ url_for('static',filename='images/pic-9.jpg')}}" alt=""/>
+			</div>
+			<div class="about-text">
+					<p>Hello Programmmer, My name is Sachin Shrivastv. I am 16 years old & i read in 11th Computer Science in HKMC in Birgunj Nepal. I am Web & Software devloper, not certified devloper but, I can devlop Backend of web application in python with help flask module. I know Python language, i have created many python based utility tools, Like as Port Scanner, Website Admin Finder, Base64 IMG Encoder in the year of pandemic or 2020 AD. There is very big trend of facebook dp battle, In this game or trend i have created a python based facebook weak id password finder. Using some python bs4 (BeautifulSoup), requests & some bluitin module.</p> 
+					<p>In the year of pandemic i have created one youtube channel named Badhshah Hacker. Channel was growed fine, in a month i have completed 260 subscribe, 4.45K views.&<br>Down below here is my Skills chart...</p>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+			<div class="about-sectiongrids">
+				<div class="col-md-6 about-leftgrid">
+					<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Graphic Design</h4>
+						</div>
+						<div class="percentage">
+							<p>75%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:75%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Ui/Ux</h4>
+						</div>
+						<div class="percentage">
+							<p>87%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:87%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Logo Design</h4>
+						</div>
+						<div class="percentage">
+							<p>65%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:65%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Html/Css</h4>
+						</div>
+						<div class="percentage">
+							<p>57%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:57%"> </div>
+	                      </div>
+	                      </div>
+
+	</div>
+	<div class="col-md-6 about-rightgrid">
+		<div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Web Devlopment</h4>
+						</div>
+						<div class="percentage">
+							<p>73%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:73%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Python</h4>
+						</div>
+						<div class="percentage">
+							<p>92%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:92%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Photography</h4>
+						</div>
+						<div class="percentage">
+							<p>49%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:49%"> </div>
+	                      </div>
+	                      </div>
+	                      <div class="polls">
+					<div class="poll">
+						<div class="poll-desc">
+							<h4>Jquery</h4>
+						</div>
+						<div class="percentage">
+							<p>35%</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="skills">
+			              	<div style="width:35%"> </div>
+	                      </div>
+	                      </div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="arrow1">
+	<a href="#work" class="scroll"><img src="{{ url_for('static',filename='images/arrow1.png')}}" alt=""/></a>
+					</div>
+	</div>
+	</div>
+	<!-- about-section-ends -->
+	<div class="works-section" id="work" id="work">
+	   <div class="works-header">
+			<h3>Featured Photo</h3>
+				<p>Very smart people are often tricked by hackers, by phishing. I don't exclude myself from that. It's about being smarter than a hacker. Not about being smart, Here is some colllection of Photography & Meomories with visual grahics.</p>
+		</div>
+		<div class="portfolio-section-bottom-row" id="portfolio">
+			<div class="container">
+				
+						<script src="{{ url_for('static',filename='js/easyResponsiveTabs.js')}}" type="text/javascript"></script>
+					<script type="text/javascript">
+						$(document).ready(function () {
+							$('#horizontalTab').easyResponsiveTabs({
+								type: 'default', //Types: default, vertical, accordion           
+								width: 'auto', //auto or any width like 600px
+								fit: true   // 100% fit in a container
+							});
+						});
+						
+					</script>
+						<link rel="stylesheet" href="{{ url_for('static',filename='css/swipebox.css')}}">
+							<script src="{{ url_for('static',filename='js/jquery.swipebox.min.js')}}"></script> 
+								<script type="text/javascript">
+									jQuery(function($) {
+										$(".swipebox").swipebox();
+									});
+								</script>
+							<!-- Portfolio Ends Here -->
+						<div class="sap_tabs">
+							<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+								  <ul class="resp-tabs-list">
+									  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>All</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Collection</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Best</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Editing</span></li>
+									  <li class="resp-tab-item" aria-controls="tab_item-4" role="tab"><span>Photography</span></li>
+									  <div class="clearfix"></div>
+								  </ul>	
+								<div id="portfoliolist">
+									<div class="resp-tabs-container">
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-1.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-1.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-2.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-2.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-3.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-3.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-4.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-4.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-5.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-5.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-6.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-6.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-7.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-7.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-8.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-8.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="clearfix"></div>	
+											</div>
+																				 
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+											<div class="tab_img">
+												<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-5.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-5.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-6.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-6.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-7.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-7.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-8.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-8.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+													<div class="clearfix"></div>	
+											</div>	 	        					 
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+											
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-2.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-2.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-3.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-3.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-4.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-4.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+														<div class="clearfix"></div>
+											</div>		        					 
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-1.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-1.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-2.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-2.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+														<div class="clearfix"></div>
+											</div>	
+										</div>
+										<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-4">
+											<div class="tab_img">
+													<div class="col-md-3 img-top grid_box">
+														<a href="{{ url_for('static',filename='images/pic-1.jpg')}}" class="swipebox"  title="Image Title">
+															  <img src="{{ url_for('static',filename='images/pic-1.jpg')}}" class="img-responsive" alt="">
+															  <span class="zoom-icon"></span> 
+														</a>
+													</div>
+													
+														<div class="clearfix"></div>
+											</div>	
+										</div>										
+									</div>	
+								</div>
+							</div>
+						</div>				
+ 
+				<div class="arrow">
+					<a href="#services" class="scroll"><img src="{{ url_for('static',filename='images/arrow.png')}}" alt=""/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- portfolio-section-ends -->
+	<div class="services-section" id="services">
+			<div class="container"> 
+			<div class="services-header">
+				<h3>services</h3>
+					<p>As other blogger and youtuber doesn't provided any free service with their profession or skill, But everyone is not like other. So, i have provided some free service in our blog or potfolio. For more extra info contacts us in contact section. </p>
+			</div>
+			<div class="services-sectiongrids">
+				<div class="col-md-4 services-grid">
+					<img src="{{ url_for('static',filename='images/img1.png')}}" alt=""/>
+					<h4>webdesign</h4>
+					<p>I can also design some basic website using Html, Css & Js. & My skilled shown on about section.</p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<img src="{{ url_for('static',filename='images/img2.png')}}" alt=""/>
+					<h4>print design</h4>
+					<p>I can design website UI & logo for thier business and traded. & All graphic editing.</p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<img src="{{ url_for('static',filename='images/img3.png')}}" alt=""/>
+					<h4>web development</h4>
+					<p>For web development, i use python flask module for creating restful API and enddpoint.</p>
+				</div>
+				<div class="clearfix"></div>
+				<div class="arrow1">
+					<a href="#contact" class="scroll"><img src="{{ url_for('static',filename='images/arrow1.png')}}" alt=""/></a>
+					</div>
+		</div>
+		</div>
+		</div>
+		<!-- services-section-ends -->
+	</div>
+	<div class="footer-section" id="contact" id="contact">
+			<div class="container"> 
+			<div class="contact-header">
+				<h3> contact</h3>
+					<p>Thanks for visiting my website, I hope that you loved the website & also follow me on social media.<br>Fill the for form with your message</p>
+			</div>
+			<div class="social-icon">
+				<a href="https://twitter.com/?lang=en" target="target_blank"><i class="icon1"></i></a>
+				<a href="https://www.facebook.com/badhshah250" target="target_blank"><i class="icon2"></i></a>
+				<a href="https://youtube.com/channel/UCUltb-xVDLF6dtfgtPOBpuA" target="target_blank"><i class="icon4"></i></a>
+				<a href="https://github.com/sachin1152207" target="target_blank"><i class="icon6"></i></a>
+			</div>
+			<div class="container">
+	<div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="well well-sm">
+          <form class="form-horizontal" action="/contact" method="post">
+          <fieldset>
+            <legend class="text-center">Contact us</legend>
+    
+            <!-- Name input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Name</label>
+              <div class="col-md-9">
+                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Email input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">Your E-mail</label>
+              <div class="col-md-9">
+                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Your message</label>
+              <div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+              </div>
+            </div>
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+	</div>
+</div>
+			<div class="footer-bottom">
+
+					<p>&copy; 2022 Sachin Shrivastv. All rights  Reserved</p>
+
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+
+		</div>		
+	</div>
+	
+	
+</body>
+</html>
